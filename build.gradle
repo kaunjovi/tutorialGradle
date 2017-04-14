@@ -1,5 +1,6 @@
-
-// defaultTasks 'helloWorld'
+// This is default. If you call gradle without specifying any task then 
+// this one gets executed. 
+defaultTasks 'helloWorld'
 
 task helloWorld {
   doLast {
