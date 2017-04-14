@@ -109,6 +109,19 @@ $ gradle -q
 Hello world from gradle.
 ```
 
+### [Run on virtual device](http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line)
+
+  - You need to have android sdk installed in your machine. 
+
+```
+$ android -h
+
+       Usage:
+       android [global options] action [action options]
+       Global opti...
+```
+
+
 
 ### [Gradle with Android](http://www.vogella.com/tutorials/AndroidBuild/article.html)
 
@@ -118,8 +131,10 @@ Hello world from gradle.
 
   - ?? 
 
+
+
 ### References 
 
   - https://spring.io/guides/gs/gradle-android/
   - https://examples.javacodegeeks.com/core-java/gradle/gradle-hello-world-tutorial/
-  - 
+  - https://medium.com/google-developers/instant-run-how-does-it-work-294a1633367f
