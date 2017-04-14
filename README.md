@@ -71,18 +71,20 @@ Total time: 0.753 secs
 
 ```
 task helloWorld {
+  doLast {
    println 'Hello world from gradle.'
+  }
 }
 ```
 
 ```
 $ gradle helloWorld
+:helloWorld
 Hello world from gradle.
-:helloWorld UP-TO-DATE
 
 BUILD SUCCESSFUL
 
-Total time: 0.628 secs
+Total time: 0.633 secs
 ```
 
 
