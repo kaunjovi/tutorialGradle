@@ -65,6 +65,26 @@ BUILD SUCCESSFUL
 Total time: 0.753 secs
 ```
 
+### Add a simple helloWorld task. 
+
+#### file:build.gradle 
+
+```
+task helloWorld {
+   println 'Hello world from gradle.'
+}
+```
+
+```
+$ gradle helloWorld
+Hello world from gradle.
+:helloWorld UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 0.628 secs
+```
+
 
 
 ### [Gradle with Android](http://www.vogella.com/tutorials/AndroidBuild/article.html)
@@ -75,4 +95,8 @@ Total time: 0.753 secs
 
   - ?? 
 
+### References 
 
+  - https://spring.io/guides/gs/gradle-android/
+  - https://examples.javacodegeeks.com/core-java/gradle/gradle-hello-world-tutorial/
+  - 
