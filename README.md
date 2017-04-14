@@ -105,13 +105,8 @@ defaultTasks 'helloWorld'
   - You dont have to mention the name of the task to run it. 
 
 ```
-$ gradle
-:helloWorld
+$ gradle -q 
 Hello world from gradle.
-
-BUILD SUCCESSFUL
-
-Total time: 0.647 secs
 ```
 
 
