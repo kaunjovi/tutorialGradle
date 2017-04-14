@@ -121,6 +121,41 @@ $ android -h
        Global opti...
 ```
 
+  - Create a avd 
+
+```
+android create avd --name Default --target android-24 --abi default/x86_64
+```
+  
+  - Check that the AVD is successfully created. 
+  
+```
+$ android list avd 
+Available Android Virtual Devices:
+    Name: Default
+    Path: /Users/parthabhattacharjee/.android/avd/Default.avd
+  Target: Android 7.0 (API level 24)
+ Tag/ABI: default/x86_64
+    Skin: WVGA800
+``` 
+
+  - Run the emulator 
+
+```
+$ emulator -avd Default
+Creating filesystem with parameters:
+    Size: 69206016
+    Block size: 4096
+    Blocks per grou
+
+```
+
+### Watch the logs. 
+
+```
+adb logcat
+```
+
 
 
 ### [Gradle with Android](http://www.vogella.com/tutorials/AndroidBuild/article.html)

@@ -1,4 +1,4 @@
-package funngames;
+package fun.n.games;
 
 import android.app.Activity;
 import android.os.Bundle;
