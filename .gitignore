@@ -2,6 +2,9 @@
 # What are the files here??
 .gradle
 
+# The gradle wrapper folder is not required in git. 
+gradle
+
 .idea/
 
 build/
