@@ -1,6 +1,5 @@
 
-defaultTasks 'helloWorld'
-
+// defaultTasks 'helloWorld'
 
 task helloWorld {
   doLast {

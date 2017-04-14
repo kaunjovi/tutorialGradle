@@ -76,6 +76,7 @@ task helloWorld {
   }
 }
 ```
+  - Now run it. 
 
 ```
 $ gradle helloWorld
@@ -85,6 +86,13 @@ Hello world from gradle.
 BUILD SUCCESSFUL
 
 Total time: 0.633 secs
+```
+  
+  - You could make it quiet. 
+
+```
+$ gradle -q helloWorld 
+Hello world from gradle.
 ```
 
 ### Make the task default and call gradle without mentioning task name. 
