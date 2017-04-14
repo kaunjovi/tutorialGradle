@@ -87,6 +87,22 @@ BUILD SUCCESSFUL
 Total time: 0.633 secs
 ```
 
+### Make the task default and call gradle without mentioning task name. 
+
+```
+defaultTasks 'helloWorld'
+...
+```
+
+```
+$ gradle
+:helloWorld
+Hello world from gradle.
+
+BUILD SUCCESSFUL
+
+Total time: 0.647 secs
+```
 
 
 ### [Gradle with Android](http://www.vogella.com/tutorials/AndroidBuild/article.html)

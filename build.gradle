@@ -1,5 +1,9 @@
+
+defaultTasks 'helloWorld'
+
+
 task helloWorld {
   doLast {
-   println 'Hello world from gradle.'
+   println 'Hello world from gradle.'    
   }
 }
