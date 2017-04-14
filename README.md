@@ -9,6 +9,8 @@ $ pwd
 
 ### Is Gradle already installed? 
 
+  - We have gradle version 3 already installed. 
+
 ```
 $ gradle --v
 
@@ -25,5 +27,52 @@ JVM:          1.8.0_31 (Oracle Corporation 25.31-b07)
 OS:           Mac OS X 10.11.6 x86_64
 
 ```
+
+### What are the default, out of the box gradle tasks available? 
+
+```
+$ gradle tasks 
+:tasks
+
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build. [incubating]
+wrapper - Generates Gradle wrapper files. [incubating]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'tutorialGradle'.
+components - Displays the components produced by root project 'tutorialGradle'. [incubating]
+dependencies - Displays all dependencies declared in root project 'tutorialGradle'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'tutorialGradle'.
+dependentComponents - Displays the dependent components of components in root project 'tutorialGradle'. [incubating]
+help - Displays a help message.
+model - Displays the configuration model of root project 'tutorialGradle'. [incubating]
+projects - Displays the sub-projects of root project 'tutorialGradle'.
+properties - Displays the properties of root project 'tutorialGradle'.
+tasks - Displays the tasks runnable from root project 'tutorialGradle'.
+
+To see all tasks and more detail, run gradle tasks --all
+
+To see more detail about a task, run gradle help --task <task>
+
+BUILD SUCCESSFUL
+
+Total time: 0.753 secs
+```
+
+
+
+### [Gradle with Android](http://www.vogella.com/tutorials/AndroidBuild/article.html)
+
+  - ??
+
+### [Gradle with AndroidStudio](https://developer.android.com/studio/build/build-variants.html)
+
+  - ?? 
 
 
