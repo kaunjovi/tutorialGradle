@@ -1,6 +1,9 @@
 
 # What are the files here??
 .gradle
+
+.idea/
+
 build/
 
 # Ignore Gradle GUI config
